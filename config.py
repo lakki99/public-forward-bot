@@ -10,7 +10,7 @@ class Config:
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "copydata")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'data')
     SESSION = os.environ.get("SESSION", "")   
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1002468642357"))
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1002498435630"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "Kakashi_the_mini_copybot")
 
 
